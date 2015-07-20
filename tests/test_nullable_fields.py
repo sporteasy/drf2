@@ -1,7 +1,7 @@
 from django.core.urlresolvers import reverse
 
 from django.conf.urls import patterns, url
-from rest_framework.test import APITestCase
+from drf2.test import APITestCase
 from tests.models import NullableForeignKeySource
 from tests.serializers import NullableFKSourceSerializer
 from tests.views import NullableFKSourceDetail

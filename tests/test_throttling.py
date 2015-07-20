@@ -5,11 +5,11 @@ from __future__ import unicode_literals
 from django.test import TestCase
 from django.contrib.auth.models import User
 from django.core.cache import cache
-from rest_framework.settings import api_settings
-from rest_framework.test import APIRequestFactory
-from rest_framework.views import APIView
-from rest_framework.throttling import BaseThrottle, UserRateThrottle, ScopedRateThrottle
-from rest_framework.response import Response
+from drf2.settings import api_settings
+from drf2.test import APIRequestFactory
+from drf2.views import APIView
+from drf2.throttling import BaseThrottle, UserRateThrottle, ScopedRateThrottle
+from drf2.response import Response
 
 
 class User3SecRateThrottle(UserRateThrottle):

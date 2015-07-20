@@ -1,8 +1,8 @@
 from __future__ import unicode_literals
 from django.conf.urls import patterns, url
 from django.test import TestCase
-from rest_framework import serializers
-from rest_framework.test import APIRequestFactory
+from drf2 import serializers
+from drf2.test import APIRequestFactory
 from tests.models import (
     BlogPost,
     ManyToManyTarget, ManyToManySource, ForeignKeyTarget, ForeignKeySource,

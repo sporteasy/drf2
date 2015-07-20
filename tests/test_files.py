@@ -1,8 +1,8 @@
 from __future__ import unicode_literals
 from django.test import TestCase
 from django.utils import six
-from rest_framework import serializers
-from rest_framework.compat import BytesIO
+from drf2 import serializers
+from drf2.compat import BytesIO
 import datetime
 
 

@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.utils import six
-from rest_framework.serializers import _resolve_model
+from drf2.serializers import _resolve_model
 from tests.models import BasicModel
 
 

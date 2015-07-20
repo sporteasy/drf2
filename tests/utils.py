@@ -1,6 +1,6 @@
 from contextlib import contextmanager
 from django.utils import six
-from rest_framework.settings import api_settings
+from drf2.settings import api_settings
 
 
 @contextmanager

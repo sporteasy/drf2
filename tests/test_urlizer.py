@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 from django.test import TestCase
-from rest_framework.templatetags.rest_framework import urlize_quoted_links
+from drf2.templatetags.drf2 import urlize_quoted_links
 
 
 class URLizerTests(TestCase):

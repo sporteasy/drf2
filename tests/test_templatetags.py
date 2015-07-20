@@ -1,8 +1,8 @@
 # encoding: utf-8
 from __future__ import unicode_literals
 from django.test import TestCase
-from rest_framework.test import APIRequestFactory
-from rest_framework.templatetags.rest_framework import add_query_param, urlize_quoted_links
+from drf2.test import APIRequestFactory
+from drf2.templatetags.drf2 import add_query_param, urlize_quoted_links
 
 factory = APIRequestFactory()
 

@@ -1,4 +1,4 @@
-from rest_framework import serializers
+from drf2 import serializers
 from tests.models import NullableForeignKeySource
 
 

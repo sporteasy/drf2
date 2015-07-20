@@ -3,11 +3,11 @@ from django.conf.urls import patterns, url, include
 from django.db import models
 from django.test import TestCase
 from django.core.exceptions import ImproperlyConfigured
-from rest_framework import serializers, viewsets, mixins, permissions
-from rest_framework.decorators import detail_route, list_route
-from rest_framework.response import Response
-from rest_framework.routers import SimpleRouter, DefaultRouter
-from rest_framework.test import APIRequestFactory
+from drf2 import serializers, viewsets, mixins, permissions
+from drf2.decorators import detail_route, list_route
+from drf2.response import Response
+from drf2.routers import SimpleRouter, DefaultRouter
+from drf2.test import APIRequestFactory
 
 factory = APIRequestFactory()
 
