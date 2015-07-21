@@ -23,7 +23,7 @@ from django.utils import importlib, six
 from drf2 import ISO_8601
 
 
-USER_SETTINGS = getattr(settings, 'REST_FRAMEWORK', None)
+USER_SETTINGS = getattr(settings, 'REST_FRAMEWORK_V2', None)
 
 DEFAULTS = {
     # Base API policies
